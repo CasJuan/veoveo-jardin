@@ -3,7 +3,7 @@
 export const NavBar = () => {
   return (
     <>
-        <divs className="flex flex-row justify-around items-center gap-2 bg-amber-300">
+        <div className="w-full flex flex-row justify-around items-center gap-2 bg-white fixed">
             <h1 className="text-5xl m-2 p-2">Veo-Veo</h1>
             <ul className="flex flex-row justify-center items-center gap-4 m-2 p-2">
                 <li className="cursor-pointer">Objetivos</li>
@@ -12,7 +12,8 @@ export const NavBar = () => {
                 <li className="cursor-pointer">Actividades</li>
                 <li className="cursor-pointer">Contacto</li>
             </ul>
-        </divs>
+            <button className="bg-[#FDD835] text-[#715E00] px-3 py-2 rounded-2xl">Agendar Entrevista</button>
+        </div>
     </>
   )
 }
