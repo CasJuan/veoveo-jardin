@@ -10,9 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar/>
     <Hero/>
-    <div className='bg-[#FFD757] '>
     <Objetivo/>
     <Comunicaciones/>
-    </div>
   </StrictMode>,
 )
