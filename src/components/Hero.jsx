@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import imgHero from "../img/veoveo.svg";
 
 export const Hero = () => {
   return (
@@ -13,8 +14,8 @@ export const Hero = () => {
             <button className="bg-tertiary text-[#715E00] px-3 py-2 rounded-2xl cursor-pointer flex flex-row gap-2">Ver Propuesta <ArrowRight /> </button>
           </div>
         </div>
-        <div className="bg-primary h-3/6 w-80 rounded-lg shadow-2xl ">
-
+        <div className="bg-primary h-3/6 w-80 rounded-lg shadow-2xl hover:scale-105 transition-all duration-300 transform-fill ">
+          <img src={imgHero} alt="Veo-Veo" className="w-full h-full object-fill" />
         </div>
       </section>
     </>
