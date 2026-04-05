@@ -27,7 +27,7 @@ export const Comunicaciones = () => {
               </div>
             </div>
           </div>
-          <div className="grid w-2/3 grid-cols-4 grid-rows-2 gap-3 md:gap-4 aspect-5/4 max-h-[min(72vh,520px)] mr-5">
+          <div className="grid w-2/4 grid-cols-4 grid-rows-2 gap-3 md:gap-4 aspect-5/4 max-h-[min(72vh,520px)] mr-5">
             <img
               src={ninos1}
               alt="Niños en el jardín"

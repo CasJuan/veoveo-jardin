@@ -6,6 +6,8 @@ import { Hero } from './components/Hero'
 import { Objetivo } from './components/Objetivo'
 import { Comunicaciones } from './components/Comunicaciones'
 import { Preguntas } from './components/Preguntas'
+import { Inscripcion } from './components/Inscripcion'
+import { Footer } from './components/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Objetivo/>
     <Comunicaciones/>
     <Preguntas/>
+    <Inscripcion/>
+    <Footer/>
   </StrictMode>,
 )

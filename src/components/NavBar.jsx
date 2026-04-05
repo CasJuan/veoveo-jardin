@@ -12,7 +12,7 @@ export const NavBar = () => {
                 <li className="cursor-pointer">Actividades</li>
                 <li className="cursor-pointer">Contacto</li>
             </ul>
-            <button className="bg-primary text-[#715E00] px-3 py-2 rounded-2xl cursor-pointer">Agendar Entrevista</button>
+            <button className="bg-primary text-brown px-3 py-2 rounded-2xl cursor-pointer">Agendar Entrevista</button>
         </div>
     </>
   )

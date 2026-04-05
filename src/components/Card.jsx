@@ -1,9 +1,20 @@
+import React from 'react';
+
 export const Card = ({ icon, title, desc }) => {
+    const renderIcon = () => {
+        // If user passed a React element (<Icon />), render it
+        if (React.isValidElement(icon)) return icon;
+        // If user passed a component reference (Icon) render it
+        if (typeof icon === 'function') return React.createElement(icon);
+        // Otherwise render whatever (string, number, emoji)
+        return icon;
+    };
+
     return (
         <>
             <div className="flex flex-col justify-center items-center gap-5 bg-neutral w-[384px] h-60.25 rounded-lg shadow-2xs m-2 p-2">
                 <div className="flex flex-row justify-center items-center gap-4">
-                    <span className="bg-amber-200 h-11 w-11 rounded-full flex items-center justify-center">{icon}</span>
+                    <span className="bg-amber-100 h-11 w-11 rounded-full flex items-center justify-center">{renderIcon()}</span>
                     <h4 className="font-bold text-secondary text-2xl ">{title}</h4>
                 </div>
                 <p className="text-secondary text-base ">{desc}</p>
