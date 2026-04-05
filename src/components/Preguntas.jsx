@@ -32,22 +32,6 @@ const [openIndex, setOpenIndex] = useState(null)
                     <h2 className="text-4xl font-semibold">Preguntas Frecuentes</h2>
                     <div className="bg-primary h-1 w-28 rounded-full"></div>
                 </div>
-                {/* <details className="bg-[#F3F3F3] w-2/5 h-auto flex flex-col items-center justify-center rounded-2xl">
-                    <summary className="text-2xl text-secondary p-2 m-2">¿Cuáles son las edades de ingreso?</summary>
-                    <p className="text-brown text-lg p-2 m-2">Recibimos niños y niñas desde los 45 días hasta los 5 años cumplidos, divididos en salas por edades: Lactantes, Deambuladores, Sala de 2, 3, 4 y 5 años.</p>
-                </details>
-                <details className="bg-[#F3F3F3] w-2/5 h-auto flex flex-col items-center justify-center rounded-2xl">
-                    <summary className="text-2xl text-secondary p-2 m-2">¿Qué horarios maneja el jardín?</summary>
-                    <p className="text-brown text-lg p-2 m-2">Contamos con turno mañana (8:00 a 12:00), turno tarde (13:00 a 17:00) y jornada extendida opcional para las familias que lo requieran.</p>
-                </details>
-                <details className="bg-[#F3F3F3] w-2/5 h-auto flex flex-col items-center justify-center rounded-2xl">
-                    <summary className="text-2xl text-secondary p-2 m-2">¿Cómo es el proceso de inscripción?</summary>
-                    <p className="text-brown text-lg p-2 m-2">El primer paso es agendar una entrevista pedagógica para conocer nuestro proyecto. Luego se completa la reserva de vacante con la documentación requerida.</p>
-                </details>
-                <details className="bg-[#F3F3F3] w-2/5 h-auto flex flex-col items-center justify-center rounded-2xl">
-                    <summary className="text-2xl text-secondary p-2 m-2">¿Cuentan con servicio de comedor?</summary>
-                    <p className="text-brown text-lg p-2 m-2">Sí, disponemos de cocina propia con menús supervisados por nutricionistas, adaptados a las necesidades de cada etapa de crecimiento.</p>
-                </details> */}
                 <div className="flex flex-col items-center gap-3 w-full">
                     {faqs.map((faq, index) => (
                         <div
@@ -66,8 +50,6 @@ const [openIndex, setOpenIndex] = useState(null)
                                     ▼
                                 </motion.span>
                             </div>
-
-                            {/* Contenido animado */}
                             <AnimatePresence initial={false}>
                                 {openIndex === index && (
                                     <motion.div
