@@ -8,8 +8,8 @@ import ninos4 from "../img/ninos4.png"
 export const Comunicaciones = () => {
   return (
     <>
-        <section className="h-screen text-center flex flex-row items-center justify-center gap-5">
-          <div className="flex flex-col items-start justify-center gap-4 w-1/3 ml-5">
+        <section id='comunicacion' className="h-screen text-center flex flex-row items-center justify-center gap-5">
+          <div className="flex flex-col items-center justify-center gap-4 w-1/3 ml-5">
             <h2 className="text-2xl font-bold">Nuestro Jardín es su Segundo Hogar</h2>
             <p className="text-secondary text-lg ">Desde 1990, hemos cultivado un espacio donde lacalidez y la excelencia educativa se encuentran. <br/> Nuestras instalaciones están diseñadas para brindar seguridad y estímulo en cada rincón.</p>
             <div className="flex flex-col items-start justify-center gap-2">

@@ -1,3 +1,5 @@
+import { NavHashLink } from "react-router-hash-link";
+
 import { Globe, CircleFadingPlus, Map, Phone, Mail } from "lucide-react"
 
 export const Footer = () => {
@@ -19,9 +21,9 @@ export const Footer = () => {
         <div className="flex flex-col gap-4 items-center justify-center  w-1/3">
           <h3 className="text-lg font-semibold">Contacto</h3>
           <ul className=" flex flex-col items-start justify-center gap-2">
-            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"><Map color="#705D00" />Av. del Sol 1234, Ciudad</li>
-            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"><Phone color="#705D00" />+54 11 4444-5555</li>
-            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"><Mail color="#705D00" />hola@jardinveoveo.edu</li>
+            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"> <Map color="#705D00"/> <a href="https://www.google.com/maps/place/Escuela+Infantil+Veo+Veo/@-34.6031663,-58.4339136,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcca6fb69da86f:0x7a517e23e8184e70!8m2!3d-34.6031663!4d-58.4313387!16s%2Fg%2F1tl_mxh4?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Panamá 942</a></li>
+            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"><Phone color="#705D00" />4866-2050</li>
+            <li className=" gap-5 flex items-center justify-center text-sm text-[#71717A]"><Mail color="#705D00" /> <a href="mailto:veoveojardin@gmail.com">veoveojardin@gmail.com</a></li>
           </ul>
         </div>
 
@@ -30,10 +32,10 @@ export const Footer = () => {
         <div className="flex flex-col gap-4 items-center justify-center w-1/3">
           <h3 className="text-lg font-semibold">Links</h3>
           <ul className="flex flex-col items-center justify-center">
-            <li className="text-[#71717A] text-base cursor-pointer">Objetivos</li>
-            <li className="text-[#71717A] text-base cursor-pointer">Comunicacion</li>
-            <li className="text-[#71717A] text-base cursor-pointer">Fotogaleria</li>
-            <li className="text-[#71717A] text-base cursor-pointer">Actividade</li>
+            <NavHashLink smooth to="/#objetivos" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Objetivos</li></NavHashLink>
+            <NavHashLink smooth to="/#comunicacion" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Comunicacion</li></NavHashLink>
+            <NavHashLink smooth to="/#preguntas" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Fotogaleria</li></NavHashLink>
+            <NavHashLink smooth to="/#inscripcion" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Actividade</li></NavHashLink>
           </ul>
         </div>
 

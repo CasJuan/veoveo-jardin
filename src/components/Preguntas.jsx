@@ -27,7 +27,7 @@ const [openIndex, setOpenIndex] = useState(null)
   }
     return (
         <>
-            <section className="h-screen text-center flex flex-col items-center justify-center gap-8 ">
+            <section id="preguntas" className="h-screen text-center flex flex-col items-center justify-center gap-8 ">
                 <div className="flex flex-col items-center justify-center gap-1">
                     <h2 className="text-4xl font-semibold">Preguntas Frecuentes</h2>
                     <div className="bg-primary h-1 w-28 rounded-full"></div>

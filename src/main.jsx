@@ -8,9 +8,11 @@ import { Comunicaciones } from './components/Comunicaciones'
 import { Preguntas } from './components/Preguntas'
 import { Inscripcion } from './components/Inscripcion'
 import { Footer } from './components/Footer'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <BrowserRouter>
     <NavBar/>
     <Hero/>
     <Objetivo/>
@@ -18,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <Preguntas/>
     <Inscripcion/>
     <Footer/>
+    </BrowserRouter>
   </StrictMode>,
 )
