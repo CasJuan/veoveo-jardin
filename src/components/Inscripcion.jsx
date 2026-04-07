@@ -22,20 +22,20 @@ export const Inscripcion = () => {
             >
                 <img
                     src={jardin1}
-                    className="pointer-events-none absolute top-14 left-4 h-20 w-20 sm:h-24 sm:w-24 md:top-[12%] md:left-4 lg:left-[18%] md:h-28 md:w-28 lg:h-40 lg:w-40 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-80 z-0 -rotate-6"
+                    className="pointer-events-none absolute top-14 left-4 h-24 w-24 sm:h-28 sm:w-28 md:top-[12%] md:left-4 lg:left-[18%] md:h-36 md:w-36 lg:h-48 lg:w-48 xl:h-52 xl:w-52 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-80 z-0 -rotate-6"
                 />
                 <img
                     src={jardin2}
-                    className="pointer-events-none absolute top-14 right-4 h-20 w-20 sm:h-24 sm:w-24 md:top-[14%] md:right-4 lg:right-[18%] md:h-24 md:w-24 lg:h-36 lg:w-36 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 rotate-6"
+                    className="pointer-events-none absolute top-14 right-4 h-24 w-24 sm:h-28 sm:w-28 md:top-[14%] md:right-4 lg:right-[18%] md:h-32 md:w-32 lg:h-44 lg:w-44 xl:h-48 xl:w-48 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 rotate-6"
                 />
                 <img
                     src={jardin3}
-                    className="pointer-events-none absolute bottom-14 left-4 h-20 w-20 sm:h-24 sm:w-24 md:bottom-[12%] md:left-4 lg:left-[14%] md:h-24 md:w-24 lg:h-36 lg:w-36 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 rotate-6"
+                    className="pointer-events-none absolute bottom-14 left-4 h-24 w-24 sm:h-28 sm:w-28 md:bottom-[12%] md:left-4 lg:left-[14%] md:h-32 md:w-32 lg:h-44 lg:w-44 xl:h-48 xl:w-48 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 rotate-6"
                 />
 
                 <img
                     src={jardin4}
-                    className="pointer-events-none absolute bottom-14 right-4 h-20 w-20 sm:h-24 sm:w-24 md:bottom-[10%] md:right-4 lg:right-[16%] md:h-28 md:w-28 lg:h-44 lg:w-44 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 -rotate-6"
+                    className="pointer-events-none absolute bottom-14 right-4 h-24 w-24 sm:h-28 sm:w-28 md:bottom-[10%] md:right-4 lg:right-[16%] md:h-36 md:w-36 lg:h-52 lg:w-52 xl:h-56 xl:w-56 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-90 z-0 -rotate-6"
                 />
                 <div className="relative z-10 bg-linear-to-br from-primary to-[#FFB300] rounded-2xl min-h-[340px] md:min-h-[420px] w-full max-w-3xl flex flex-col items-center justify-center gap-5 shadow-2xl p-6 md:p-10">
                     <h2 className="text-4xl md:text-6xl text-brown font-semibold text-center leading-tight">
