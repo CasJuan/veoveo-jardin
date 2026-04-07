@@ -24,7 +24,7 @@ export const Objetivo = () => {
       </motion.div>
 
       <motion.div
-        className="flex flex-row justify-center items-center flex-wrap gap-5"
+        className="flex flex-row justify-center items-center flex-wrap gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}

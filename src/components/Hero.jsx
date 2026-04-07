@@ -15,7 +15,7 @@ const fadeLeft = {
 
 export const Hero = () => {
   return (
-    <section className="h-screen text-center flex flex-row items-center justify-center gap-8">
+    <section className="h-screen text-center flex flex-col md:flex-row items-center justify-center gap-8">
       <motion.div
         className="flex flex-col items-start justify-center gap-8 h-3/6 w-3/6"
         initial="hidden"
@@ -26,7 +26,7 @@ export const Hero = () => {
         <motion.div
           variants={fadeUp}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="bg-primary text-[#544600] text-sm rounded-xl h-auto w-30 flex items-center justify-center"
+          className="bg-primary text-brown text-sm rounded-xl h-auto w-30 flex items-center justify-center"
         >
           Desde 1990
         </motion.div>
@@ -59,7 +59,7 @@ export const Hero = () => {
           <button className="bg-primary text-brown px-3 py-2 rounded-2xl cursor-pointer">
             Agendar Entrevista
           </button>
-          <button className="bg-tertiary text-brown px-3 py-2 rounded-2xl cursor-pointer flex flex-row gap-2">
+          <button className="bg-tertiary text-black px-3 py-2 rounded-2xl cursor-pointer flex flex-row gap-2">
             Ver Propuesta <ArrowRight />
           </button>
         </motion.div>

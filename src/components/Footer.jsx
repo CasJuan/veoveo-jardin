@@ -5,18 +5,18 @@ import { Globe, CircleFadingPlus, Map, Phone, Mail } from "lucide-react"
 export const Footer = () => {
   return (
     <>
-      <footer className="flex flex-row items-center justify-between gap-8 mb-7">
+      <footer className="flex flex-col md:flex-row items-center justify-between gap-8 mb-7">
 
-        <div className="flex flex-col gap-4 items-center justify-center w-1/3 ml-5">
+        <div className="flex flex-col gap-4 items-center justify-center md:w-1/3 w-full ml-5">
           <h3 className="text-lg font-semibold">Jardín Veo Veo</h3>
-          <p className="text-sm text-[#71717A]">Desde 1990 brindando una educación de calidad basada en el amor, el respeto y la creatividad.</p>
+          <p className="text-sm text-[#71717A]">Desde 1990 brindando una educación de calidad basada en el amor, <br/> el respeto y la creatividad.</p>
           <ul className=" flex flex-row items-center justify-center gap-5">
             <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><Globe color="#52525B" /></li>
             <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><CircleFadingPlus color="#52525B" /></li>
           </ul>
         </div>
 
-        <div className="bg-gray-100 h-24 w-1 rounded-full"></div>
+        <div className="hidden md:block bg-gray-100 h-24 w-1 rounded-full"></div>
 
         <div className="flex flex-col gap-4 items-center justify-center  w-1/3">
           <h3 className="text-lg font-semibold">Contacto</h3>
@@ -27,7 +27,7 @@ export const Footer = () => {
           </ul>
         </div>
 
-        <div className="bg-gray-100 h-24 w-1 rounded-full"></div>
+        <div className="hidden md:block bg-gray-100 h-24 w-1 rounded-full"></div>
 
         <div className="flex flex-col gap-4 items-center justify-center w-1/3">
           <h3 className="text-lg font-semibold">Links</h3>

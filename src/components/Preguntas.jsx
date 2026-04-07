@@ -32,11 +32,11 @@ const [openIndex, setOpenIndex] = useState(null)
                     <h2 className="text-4xl font-semibold">Preguntas Frecuentes</h2>
                     <div className="bg-primary h-1 w-28 rounded-full"></div>
                 </div>
-                <div className="flex flex-col items-center gap-3 w-full">
+                <div className="flex flex-col items-center gap-3 w-full ">
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className="bg-[#F3F3F3] w-2/5 rounded-2xl overflow-hidden cursor-pointer"
+                            className="bg-[#F3F3F3] md:w-2/5 w-full m-2 rounded-2xl overflow-hidden cursor-pointer"
                             onClick={() => toggle(index)}
                         >
                             {/* Header / summary */}
