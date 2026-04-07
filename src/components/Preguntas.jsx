@@ -27,7 +27,7 @@ const [openIndex, setOpenIndex] = useState(null)
   }
     return (
         <>
-            <section id="preguntas" className="h-screen text-center flex flex-col items-center justify-center gap-8 ">
+            <section id="preguntas" className="min-h-screen text-center flex flex-col items-center justify-center gap-8 px-4 py-12 md:py-16">
                 <div className="flex flex-col items-center justify-center gap-1">
                     <h2 className="text-4xl font-semibold">Preguntas Frecuentes</h2>
                     <div className="bg-primary h-1 w-28 rounded-full"></div>
@@ -36,12 +36,12 @@ const [openIndex, setOpenIndex] = useState(null)
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className="bg-[#F3F3F3] md:w-2/5 w-full m-2 rounded-2xl overflow-hidden cursor-pointer"
+                            className="bg-[#F3F3F3] md:w-2/5 w-full max-w-3xl m-2 rounded-2xl overflow-hidden cursor-pointer"
                             onClick={() => toggle(index)}
                         >
                             {/* Header / summary */}
                             <div className="flex items-center justify-between p-4">
-                                <span className="text-2xl text-secondary">{faq.question}</span>
+                                <span className="text-lg md:text-2xl text-secondary text-left">{faq.question}</span>
                                 <motion.span
                                     animate={{ rotate: openIndex === index ? 180 : 0 }}
                                     transition={{ duration: 0.3 }}

@@ -8,8 +8,8 @@ import ninos4 from "../img/ninos4.png"
 export const Comunicaciones = () => {
   return (
     <>
-        <section id='comunicacion' className="h-screen text-center flex flex-col md:flex-row items-center justify-center gap-5">
-          <div className="flex flex-col items-center justify-center gap-4 md:w-1/3 w-full ml-5">
+        <section id='comunicacion' className="min-h-screen text-center flex flex-col md:flex-row items-center justify-center gap-8 px-4 py-12 md:py-16">
+          <div className="flex flex-col items-center justify-center gap-4 md:w-1/3 w-full">
             <h2 className="text-2xl font-bold">Nuestro Jardín es su Segundo Hogar</h2>
             <p className="text-secondary text-lg ">Desde 1990, hemos cultivado un espacio donde lacalidez y la excelencia educativa se encuentran. <br/> Nuestras instalaciones están diseñadas para brindar seguridad y estímulo en cada rincón.</p>
             <div className="flex flex-col items-start justify-center gap-2">
@@ -27,7 +27,7 @@ export const Comunicaciones = () => {
               </div>
             </div>
           </div>
-          <div className="grid md:w-2/6 w-full grid-cols-4 grid-rows-2 gap-3 md:gap-4 aspect-5/4 max-h-[min(72vh,520px)] mr-5">
+          <div className="grid md:w-2/6 w-full max-w-xl grid-cols-4 grid-rows-2 gap-3 md:gap-4 aspect-5/4 max-h-[min(72vh,520px)]">
             <img
               src={ninos1}
               alt="Niños en el jardín"

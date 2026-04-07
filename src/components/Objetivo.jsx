@@ -9,7 +9,7 @@ const fadeUp = {
 
 export const Objetivo = () => {
   return (
-    <section id="objetivos" className="h-screen text-center flex flex-col items-center justify-center gap-5">
+    <section id="objetivos" className="min-h-screen text-center flex flex-col items-center justify-center gap-5 px-4 py-12 md:py-16">
 
       <motion.div
         className="flex flex-col items-center justify-center gap-1"
@@ -24,7 +24,7 @@ export const Objetivo = () => {
       </motion.div>
 
       <motion.div
-        className="flex flex-row justify-center items-center flex-wrap gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        className="flex flex-row justify-center items-center flex-wrap gap-5 w-full"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
