@@ -1,6 +1,8 @@
 import { NavHashLink } from "react-router-hash-link";
 
 import { Globe, CircleFadingPlus, Map, Phone, Mail } from "lucide-react"
+import instagram from "../img/instagram-svgrepo-com.svg";
+import whatsapp from "../img/whatsapp-svgrepo-com.svg";
 
 export const Footer = () => {
   return (
@@ -11,8 +13,8 @@ export const Footer = () => {
           <h3 className="text-lg font-semibold">Jardín Veo Veo</h3>
           <p className="text-sm text-[#71717A]">Desde 1990 brindando una educación de calidad basada en el amor, <br/> el respeto y la creatividad.</p>
           <ul className=" flex flex-row items-center justify-center gap-5">
-            <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><Globe color="#52525B" /></li>
-            <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><CircleFadingPlus color="#52525B" /></li>
+            <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><a href="https://www.instagram.com/veoveo.jardin/" target="_blank"><img className="w-5 h-5 " src={instagram}/></a></li>
+            <li className="bg-[#EEEEEE] rounded-full h-10 w-10 flex items-center justify-center"><a href="https:/wa.me/1156093612?text=Hola, buenos días. Me gustaría coordinar una reunión presencial para conocer las instalaciones del jardín. Muchas gracias." target="_blank"><img className="w-5 h-5 " src={whatsapp}/></a></li>
           </ul>
         </div>
 

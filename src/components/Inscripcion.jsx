@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import ninos1 from "../img/ninos1.png"
 import jardin1 from "../img/jardin1.png"
 import jardin2 from "../img/jardin2.png"
 import jardin3 from "../img/jardin3.png"
@@ -21,7 +22,7 @@ export const Inscripcion = () => {
                 className="relative min-h-[78vh] md:min-h-screen flex items-center justify-center px-4 py-10 md:py-20 overflow-hidden"
             >
                 <img
-                    src={jardin1}
+                    src={ninos1}
                     className="pointer-events-none absolute top-14 left-4 h-24 w-24 sm:h-28 sm:w-28 md:top-[12%] md:left-4 lg:left-[18%] md:h-36 md:w-36 lg:h-48 lg:w-48 xl:h-52 xl:w-52 rounded-2xl object-cover shadow-xl opacity-70 md:opacity-80 z-0 md:z-20 -rotate-6"
                 />
                 <img

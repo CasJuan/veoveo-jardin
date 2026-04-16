@@ -67,7 +67,7 @@ export const Hero = () => {
 
       {/* Imagen — entra desde la derecha */}
       <motion.div
-        className="bg-primary h-72 md:h-[420px] w-64 md:w-80 rounded-lg shadow-2xl"
+        className="relative z-10 bg-primary h-72 md:h-[420px] w-64 md:w-80 rounded-lg shadow-2xl"
         variants={fadeLeft}
         initial="hidden"
         animate="visible"
