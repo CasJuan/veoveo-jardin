@@ -3,28 +3,41 @@ import { motion, AnimatePresence } from "motion/react"
 
 export const Preguntas = () => {
     const faqs = [
-  {
-    question: "¿Cuáles son las edades de ingreso?",
-    answer: "Recibimos niños y niñas desde los 45 días hasta los 5 años cumplidos, divididos en salas por edades: Lactantes, Deambuladores, Sala de 2, 3, 4 y 5 años."
-  },
-  {
-    question: "¿Qué horarios maneja el jardín?",
-    answer: "Contamos con turno mañana (8:00 a 12:00), turno tarde (13:00 a 17:00) y jornada extendida opcional para las familias que lo requieran."
-  },
-  {
-    question: "¿Cómo es el proceso de inscripción?",
-    answer: "El primer paso es agendar una entrevista pedagógica para conocer nuestro proyecto. Luego se completa la reserva de vacante con la documentación requerida."
-  },
-  {
-    question: "¿Cuentan con servicio de comedor?",
-    answer: "Sí, disponemos de cocina propia con menús supervisados por nutricionistas, adaptados a las necesidades de cada etapa de crecimiento."
-  }
-]
-const [openIndex, setOpenIndex] = useState(null)
+        {
+            question: "¿Cuáles son las edades de ingreso?",
+            answer: "Recibimos niños desde los 45 días hasta los 5 años, organizados en salas según su edad y etapa de desarrollo."
+        },
+        {
+            question: "¿Qué horarios maneja el jardín?",
+            answer: "Contamos con turnos mañana y tarde, con posibilidad de jornada completa. En la entrevista inicial te asesoramos sobre la opción que mejor se adapta a tu familia."
+        },
+        {
+            question: "¿Cómo es el proceso de inscripción?",
+            answer: "Comenzamos con una entrevista inicial donde la familia nos comparte los primeros datos significativos del niño. A partir de ahí coordinamos el período de adaptación de manera gradual y acompañada."
+        },
+        {
+            question: "¿Cómo es el proceso de inscripción?",
+            answer: "Comenzamos con una entrevista inicial donde la familia nos comparte los primeros datos significativos del niño. A partir de ahí coordinamos el período de adaptación de manera gradual y acompañada."
+        },
+        {
+            question: "¿Cómo me entero de lo que pasa en el jardín día a día?",
+            answer: "A través del cuaderno de comunicaciones que viaja diariamente con el niño, mails con presentaciones de proyectos, carteles en la entrada y reuniones generales donde también se entrega la carpeta con las producciones grafoplásticas."
+        }
+        ,
+        {
+            question: "¿Cómo sé cómo va mi hijo en su desarrollo?",
+            answer: "Entregamos informes de seguimiento en las áreas intelectual, socioafectiva y psicomotriz. También realizamos entrevistas individuales, ya sea a pedido del jardín o de la familia, para aclarar dudas e intercambiar información."
+        },
+        {
+            question: "¿Las familias pueden participar en actividades del jardín?",
+            answer: "¡Sí! Organizamos talleres con abuelos, tíos, papás, mamás, hermanos y exalumnos, además de clases abiertas y el Expoarte, donde las familias pueden ver de cerca las producciones de sus hijos."
+        }
+    ]
+    const [openIndex, setOpenIndex] = useState(null)
 
-  const toggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
+    const toggle = (index) => {
+        setOpenIndex(openIndex === index ? null : index)
+    }
     return (
         <>
             <section id="preguntas" className="min-h-screen text-center flex flex-col items-center justify-center gap-8 px-4 py-12 md:py-16">

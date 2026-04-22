@@ -51,15 +51,19 @@ export const Comunicaciones = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <h2 className="text-2xl font-bold">Nuestro Jardín es su Segundo Hogar</h2>
-        <p className="text-secondary text-lg text-start">
-          Desde 1990, hemos cultivado un espacio donde la calidez y la excelencia educativa se encuentran.
-          Nuestras instalaciones están diseñadas para brindar seguridad y estímulo en cada rincón.
-        </p>
+        <div className="flex flex-col items-start justify-center gap-5">
+          <p className="text-secondary text-lg text-start">
+            Desde 1990 construimos un espacio donde calidez y educación de calidad van de la mano. Creemos en una propuesta constructivista donde el niño aprende globalmente, a partir de situaciones de la vida cotidiana, y no de modo fragmentado.
+          </p>
+          <p className="text-secondary text-lg text-start">
+            El contacto auténtico entre el jardín y la familia es parte central de nuestra propuesta: cuando hay confianza y comunicación real, el niño crece con seguridad y pertenencia.
+          </p>
+        </div>
         <div className="flex flex-col items-start justify-center gap-3">
           {[
-            "Grupos reducidos para atención personalizada",
-            "Equipo docente altamente calificado",
-            "Seguimiento psicopedagógico permanente",
+            "Grupos reducidos para una atención cercana y personalizada",
+            "Docentes que respetan los tiempos y la diversidad de cada niño",
+            "Vínculo cotidiano y transparente con las familias",
           ].map((item) => (
             <motion.div
               key={item}

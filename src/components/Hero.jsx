@@ -46,8 +46,7 @@ export const Hero = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-base md:text-lg text-secondary text-start text-wrap"
         >
-          Un espacio diseñado para la curiosidad, donde cada niño descubre el mundo a su propio ritmo <br />
-          a través de la exploración y el juego consciente.
+          Comprometidos con una educación activa desde 1990, donde cada niño descubre, pregunta y construye su conocimiento a través de la acción. <br></br> Creemos que aprender tiene que tener sentido: por eso el juego y los proyectos son el corazón de nuestra propuesta, y cada familia es parte esencial de nuestra comunidad.
         </motion.p>
 
         {/* Botones */}
@@ -67,7 +66,7 @@ export const Hero = () => {
 
       {/* Imagen — entra desde la derecha */}
       <motion.div
-        className="relative z-10 bg-primary h-72 md:h-[420px] w-64 md:w-80 rounded-lg shadow-2xl"
+        className="relative z-10 bg-primary h-72 md:h-105 w-64 md:w-80 rounded-lg shadow-2xl"
         variants={fadeLeft}
         initial="hidden"
         animate="visible"
