@@ -12,7 +12,7 @@ const scaleIn = {
 
 export const Inscripcion = () => {
     return (
-        <div id="inscripcion">
+        <section id="inscripcion">
             <motion.div
                 variants={scaleIn}
                 initial="hidden"
@@ -43,13 +43,13 @@ export const Inscripcion = () => {
                         ¿Querés conocer nuestra <br /> casa de aprendizaje?
                     </h2>
                     <p className="text-lg md:text-lg text-brown text-center max-w-2xl">
-                        Inscribí a tu hijo en el ciclo lectivo 2024. Quedan pocas vacantes disponibles para las salas de 2 y 3 años.
+                        Inscribí a tu hijo en el ciclo lectivo 2026. Quedan pocas vacantes disponibles para las salas de 2 y 3 años.
                     </p>
                     <button className="bg-brown text-neutral rounded-2xl w-auto h-11 px-5 m-3 text-base cursor-pointer flex items-center justify-center">
                         Inscribite ahora
                     </button>
                 </div>
             </motion.div>
-        </div>
+        </section>
     )
 }

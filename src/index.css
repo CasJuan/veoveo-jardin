@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
-*{
-  font-family: "Plus Jakarta Sans", sans-serif;
+html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+section,
+#inscripcion,
+footer {
+  scroll-snap-align: start;
+  scroll-margin-top: 5rem;
 }
 
 @theme {
