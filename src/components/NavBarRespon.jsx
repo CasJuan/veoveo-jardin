@@ -4,7 +4,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 
 export const NavBarRespon = ({ open, setOpen }) => {
-    
+
     const animation = {
         initial: { opacity: 0, y: -100 },
         animate: { opacity: 1, y: 0 },
