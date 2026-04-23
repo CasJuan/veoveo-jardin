@@ -8,7 +8,7 @@ export const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="w-full top-0 left-0 bg-neutral fixed z-100">
+      <div className="w-full top-0 left-0 bg-neutral fixed z-100 h-16">
         <div className="w-full max-w-6xl mx-auto flex flex-row items-center justify-between px-4 md:px-6 py-2">
           <NavHashLink smooth to="/#" className="cursor-pointer" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
             <h1 className="text-3xl md:text-5xl m-0 p-0 flex flex-row items-center justify-center gap-2">
