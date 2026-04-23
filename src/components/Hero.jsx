@@ -15,7 +15,7 @@ const fadeLeft = {
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen text-center flex flex-col md:flex-row items-center justify-center gap-8 px-4 md:px-8 py-10 md:py-16">
+    <section className="bg-white min-h-screen text-center flex flex-col md:flex-row items-center justify-center gap-8 px-4 md:px-8 py-10 md:py-16">
       <motion.div
         className="flex flex-col md:items-start items-center justify-center gap-6 md:gap-8 w-full md:w-1/2"
         initial="hidden"

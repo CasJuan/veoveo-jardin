@@ -18,10 +18,10 @@ createRoot(document.getElementById('root')).render(
       <NavBar />
       <Hero />
       <div className="relative">
-        <div className="sticky top-0 h-0 w-full -z-10 pointer-events-none overflow-visible">
+        <div className="fixed top-0 left-0 h-screen w-full -z-10 pointer-events-none overflow-hidden">
           <img
             src={veoveo}
-            alt=""
+            alt="Veo-Veo"
             className="absolute top-[10vh] left-0 opacity-5 w-[300px]"
           />
         </div>
