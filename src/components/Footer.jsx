@@ -36,8 +36,8 @@ export const Footer = () => {
           <ul className="flex flex-col items-center justify-center">
             <NavHashLink smooth to="/#objetivos" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Objetivos</li></NavHashLink>
             <NavHashLink smooth to="/#comunicacion" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Comunicacion</li></NavHashLink>
-            <NavHashLink smooth to="/#preguntas" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Fotogaleria</li></NavHashLink>
-            <NavHashLink smooth to="/#inscripcion" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Actividade</li></NavHashLink>
+            <NavHashLink smooth to="/#preguntas" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Preguntas</li></NavHashLink>
+            <NavHashLink smooth to="/#inscripcion" className="cursor-pointer text-base" activeStyle={{ color: 'red' }} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}><li className="text-[#71717A] text-sm cursor-pointer">Inscripcion</li></NavHashLink>
           </ul>
         </div>
 

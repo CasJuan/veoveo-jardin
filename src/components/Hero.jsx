@@ -58,9 +58,9 @@ export const Hero = () => {
           <button className="bg-primary text-brown px-3 py-2 rounded-2xl cursor-pointer">
             Agendar Entrevista
           </button>
-          <button className="bg-tertiary text-black px-3 py-2 rounded-2xl cursor-pointer flex flex-row gap-2">
+          {/* <button className="bg-tertiary text-black px-3 py-2 rounded-2xl cursor-pointer flex flex-row gap-2">
             Ver Propuesta <ArrowRight />
-          </button>
+          </button> */}
         </motion.div>
       </motion.div>
 
