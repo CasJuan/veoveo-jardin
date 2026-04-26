@@ -12,7 +12,7 @@ export const Card = ({ icon, title, desc }) => {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center gap-5 bg-[#F3F3F3] w-full max-w-[384px] min-h-60 rounded-3xl shadow-2xs m-2 p-4">
+            <div className="flex flex-col justify-center items-center gap-5 bg-[#F3F3F3] w-full max-w-[384px] min-h-60 rounded-3xl shadow-2xs p-4">
                 <div className="flex flex-row justify-center items-center gap-4">
                     <span className="bg-amber-100 h-11 w-11 rounded-full flex items-center justify-center">{renderIcon()}</span>
                     <h4 className="font-bold text-secondary text-xl md:text-2xl ">{title}</h4>
